@@ -40,7 +40,582 @@
       </MultilingualText>
       <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
         <AttributeList>
-          <NetworkSource />
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Auto" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="memory-eme" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="23">
+      <Symbol>
+        <Component Name="Start" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="24">
+      <Symbol>
+        <Component Name="Stop" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="25">
+      <Symbol>
+        <Component Name="Reset" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="26">
+      <Symbol>
+        <Component Name="Emergency stop" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="27">
+      <Symbol>
+        <Component Name="At elevator" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="28">
+      <Symbol>
+        <Component Name="At 0 (low)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="29">
+      <Symbol>
+        <Component Name="At 0 (high)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="30">
+      <Symbol>
+        <Component Name="At 1 (low)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="31">
+      <Symbol>
+        <Component Name="At 1 (high)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="32">
+      <Symbol>
+        <Component Name="At 2 (low)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="33">
+      <Symbol>
+        <Component Name="At 2 (high)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="34">
+      <Symbol>
+        <Component Name="At 3 (low)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="35">
+      <Symbol>
+        <Component Name="At 3 (high)" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="36">
+      <Symbol>
+        <Component Name="At exit" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="37">
+      <Symbol>
+        <Component Name="Slow" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="38">
+      <Symbol>
+        <Component Name="Up" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="39">
+      <Symbol>
+        <Component Name="Down" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="40">
+      <Symbol>
+        <Component Name="Floor 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="41">
+      <Symbol>
+        <Component Name="Floor 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="42">
+      <Symbol>
+        <Component Name="Floor 3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="43">
+      <Symbol>
+        <Component Name="Load" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="44">
+      <Symbol>
+        <Component Name="elevator_DB" />
+        <Component Name="floor0" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="45">
+      <Symbol>
+        <Component Name="Diffuse Sensor 0" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="46">
+      <Symbol>
+        <Component Name="At elevator" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="47">
+      <Symbol>
+        <Component Name="Conveyor 0" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="48">
+      <Symbol>
+        <Component Name="elevator_DB" />
+        <Component Name="floor1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="49">
+      <Symbol>
+        <Component Name="Diffuse Sensor 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="50">
+      <Symbol>
+        <Component Name="At 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="51">
+      <Symbol>
+        <Component Name="Conveyor 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="52">
+      <Symbol>
+        <Component Name="Yellow 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="53">
+      <Symbol>
+        <Component Name="Red 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="54">
+      <Symbol>
+        <Component Name="Green 1" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="55">
+      <Symbol>
+        <Component Name="elevator_DB" />
+        <Component Name="floor2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="56">
+      <Symbol>
+        <Component Name="Diffuse Sensor 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="57">
+      <Symbol>
+        <Component Name="At 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="58">
+      <Symbol>
+        <Component Name="Conveyor 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="59">
+      <Symbol>
+        <Component Name="Yellow 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="60">
+      <Symbol>
+        <Component Name="Red 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="61">
+      <Symbol>
+        <Component Name="Green 2" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="62">
+      <Symbol>
+        <Component Name="elevator_DB" />
+        <Component Name="floor3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="63">
+      <Symbol>
+        <Component Name="Diffuse Sensor 3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="64">
+      <Symbol>
+        <Component Name="At 3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="65">
+      <Symbol>
+        <Component Name="Conveyor 3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="66">
+      <Symbol>
+        <Component Name="Yellow 3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="67">
+      <Symbol>
+        <Component Name="Red 3" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="68">
+      <Symbol>
+        <Component Name="Green 3" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="69" />
+    <Part Name="Contact" UId="70">
+      <Negated Name="operand" />
+    </Part>
+    <Call UId="71">
+      <CallInfo Name="elevator" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="72">
+          <Component Name="elevator_DB" />
+        </Instance>
+        <Parameter Name="start" Section="Input" Type="Bool" />
+        <Parameter Name="stop" Section="Input" Type="Bool" />
+        <Parameter Name="restart" Section="Input" Type="Bool" />
+        <Parameter Name="emergency" Section="Input" Type="Bool" />
+        <Parameter Name="selector" Section="Input" Type="Bool" />
+        <Parameter Name="at-elevator" Section="Input" Type="Bool" />
+        <Parameter Name="At 0 (low)" Section="Input" Type="Bool" />
+        <Parameter Name="At 0 (high)" Section="Input" Type="Bool" />
+        <Parameter Name="At 1 (low)" Section="Input" Type="Bool" />
+        <Parameter Name="At 1 (high)" Section="Input" Type="Bool" />
+        <Parameter Name="At 2 (low)" Section="Input" Type="Bool" />
+        <Parameter Name="At 2 (high)" Section="Input" Type="Bool" />
+        <Parameter Name="At 3 (low)" Section="Input" Type="Bool" />
+        <Parameter Name="At 3 (high)" Section="Input" Type="Bool" />
+        <Parameter Name="AT-exit" Section="Input" Type="Bool" />
+        <Parameter Name="Input_1" Section="Input" Type="Bool" />
+        <Parameter Name="slow" Section="Output" Type="Bool" />
+        <Parameter Name="up" Section="Output" Type="Bool" />
+        <Parameter Name="down" Section="Output" Type="Bool" />
+        <Parameter Name="floor0" Section="Output" Type="Bool" />
+        <Parameter Name="floor1" Section="Output" Type="Bool" />
+        <Parameter Name="floor2" Section="Output" Type="Bool" />
+        <Parameter Name="floor3" Section="Output" Type="Bool" />
+        <Parameter Name="load" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+    <Call UId="73">
+      <CallInfo Name="floor" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="74">
+          <Component Name="floor_DB" />
+        </Instance>
+        <Parameter Name="floor" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-box" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-conveyor" Section="Input" Type="Bool" />
+        <Parameter Name="conveyor" Section="Output" Type="Bool" />
+        <Parameter Name="yellow" Section="Output" Type="Bool" />
+        <Parameter Name="red" Section="Output" Type="Bool" />
+        <Parameter Name="green" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+    <Call UId="75">
+      <CallInfo Name="floor" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="76">
+          <Component Name="floor_DB_1" />
+        </Instance>
+        <Parameter Name="floor" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-box" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-conveyor" Section="Input" Type="Bool" />
+        <Parameter Name="conveyor" Section="Output" Type="Bool" />
+        <Parameter Name="yellow" Section="Output" Type="Bool" />
+        <Parameter Name="red" Section="Output" Type="Bool" />
+        <Parameter Name="green" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+    <Call UId="77">
+      <CallInfo Name="floor" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="78">
+          <Component Name="floor_DB_2" />
+        </Instance>
+        <Parameter Name="floor" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-box" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-conveyor" Section="Input" Type="Bool" />
+        <Parameter Name="conveyor" Section="Output" Type="Bool" />
+        <Parameter Name="yellow" Section="Output" Type="Bool" />
+        <Parameter Name="red" Section="Output" Type="Bool" />
+        <Parameter Name="green" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+    <Call UId="79">
+      <CallInfo Name="floor" BlockType="FB">
+        <Instance Scope="GlobalVariable" UId="80">
+          <Component Name="floor_DB_3" />
+        </Instance>
+        <Parameter Name="floor" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-box" Section="Input" Type="Bool" />
+        <Parameter Name="sensor-conveyor" Section="Input" Type="Bool" />
+        <Parameter Name="conveyor" Section="Output" Type="Bool" />
+        <Parameter Name="yellow" Section="Output" Type="Bool" />
+        <Parameter Name="red" Section="Output" Type="Bool" />
+        <Parameter Name="green" Section="Output" Type="Bool" />
+      </CallInfo>
+    </Call>
+  </Parts>
+  <Wires>
+    <Wire UId="87">
+      <Powerrail />
+      <NameCon UId="69" Name="in" />
+    </Wire>
+    <Wire UId="88">
+      <IdentCon UId="21" />
+      <NameCon UId="69" Name="operand" />
+    </Wire>
+    <Wire UId="89">
+      <NameCon UId="69" Name="out" />
+      <NameCon UId="70" Name="in" />
+    </Wire>
+    <Wire UId="90">
+      <IdentCon UId="22" />
+      <NameCon UId="70" Name="operand" />
+    </Wire>
+    <Wire UId="91">
+      <NameCon UId="70" Name="out" />
+      <NameCon UId="71" Name="en" />
+    </Wire>
+    <Wire UId="92">
+      <IdentCon UId="23" />
+      <NameCon UId="71" Name="start" />
+    </Wire>
+    <Wire UId="93">
+      <IdentCon UId="24" />
+      <NameCon UId="71" Name="stop" />
+    </Wire>
+    <Wire UId="94">
+      <IdentCon UId="25" />
+      <NameCon UId="71" Name="restart" />
+    </Wire>
+    <Wire UId="95">
+      <IdentCon UId="26" />
+      <NameCon UId="71" Name="emergency" />
+    </Wire>
+    <Wire UId="96">
+      <OpenCon UId="81" />
+      <NameCon UId="71" Name="selector" />
+    </Wire>
+    <Wire UId="97">
+      <IdentCon UId="27" />
+      <NameCon UId="71" Name="at-elevator" />
+    </Wire>
+    <Wire UId="98">
+      <IdentCon UId="28" />
+      <NameCon UId="71" Name="At 0 (low)" />
+    </Wire>
+    <Wire UId="99">
+      <IdentCon UId="29" />
+      <NameCon UId="71" Name="At 0 (high)" />
+    </Wire>
+    <Wire UId="100">
+      <IdentCon UId="30" />
+      <NameCon UId="71" Name="At 1 (low)" />
+    </Wire>
+    <Wire UId="101">
+      <IdentCon UId="31" />
+      <NameCon UId="71" Name="At 1 (high)" />
+    </Wire>
+    <Wire UId="102">
+      <IdentCon UId="32" />
+      <NameCon UId="71" Name="At 2 (low)" />
+    </Wire>
+    <Wire UId="103">
+      <IdentCon UId="33" />
+      <NameCon UId="71" Name="At 2 (high)" />
+    </Wire>
+    <Wire UId="104">
+      <IdentCon UId="34" />
+      <NameCon UId="71" Name="At 3 (low)" />
+    </Wire>
+    <Wire UId="105">
+      <IdentCon UId="35" />
+      <NameCon UId="71" Name="At 3 (high)" />
+    </Wire>
+    <Wire UId="106">
+      <IdentCon UId="36" />
+      <NameCon UId="71" Name="AT-exit" />
+    </Wire>
+    <Wire UId="107">
+      <OpenCon UId="82" />
+      <NameCon UId="71" Name="Input_1" />
+    </Wire>
+    <Wire UId="108">
+      <NameCon UId="71" Name="eno" />
+      <NameCon UId="73" Name="en" />
+      <NameCon UId="75" Name="en" />
+      <NameCon UId="77" Name="en" />
+      <NameCon UId="79" Name="en" />
+    </Wire>
+    <Wire UId="109">
+      <NameCon UId="71" Name="slow" />
+      <IdentCon UId="37" />
+    </Wire>
+    <Wire UId="110">
+      <NameCon UId="71" Name="up" />
+      <IdentCon UId="38" />
+    </Wire>
+    <Wire UId="111">
+      <NameCon UId="71" Name="down" />
+      <IdentCon UId="39" />
+    </Wire>
+    <Wire UId="112">
+      <NameCon UId="71" Name="floor0" />
+      <OpenCon UId="83" />
+    </Wire>
+    <Wire UId="113">
+      <NameCon UId="71" Name="floor1" />
+      <IdentCon UId="40" />
+    </Wire>
+    <Wire UId="114">
+      <NameCon UId="71" Name="floor2" />
+      <IdentCon UId="41" />
+    </Wire>
+    <Wire UId="115">
+      <NameCon UId="71" Name="floor3" />
+      <IdentCon UId="42" />
+    </Wire>
+    <Wire UId="116">
+      <NameCon UId="71" Name="load" />
+      <IdentCon UId="43" />
+    </Wire>
+    <Wire UId="117">
+      <IdentCon UId="44" />
+      <NameCon UId="73" Name="floor" />
+    </Wire>
+    <Wire UId="118">
+      <IdentCon UId="45" />
+      <NameCon UId="73" Name="sensor-box" />
+    </Wire>
+    <Wire UId="119">
+      <IdentCon UId="46" />
+      <NameCon UId="73" Name="sensor-conveyor" />
+    </Wire>
+    <Wire UId="120">
+      <NameCon UId="73" Name="conveyor" />
+      <IdentCon UId="47" />
+    </Wire>
+    <Wire UId="121">
+      <NameCon UId="73" Name="yellow" />
+      <OpenCon UId="84" />
+    </Wire>
+    <Wire UId="122">
+      <NameCon UId="73" Name="red" />
+      <OpenCon UId="85" />
+    </Wire>
+    <Wire UId="123">
+      <NameCon UId="73" Name="green" />
+      <OpenCon UId="86" />
+    </Wire>
+    <Wire UId="124">
+      <IdentCon UId="48" />
+      <NameCon UId="75" Name="floor" />
+    </Wire>
+    <Wire UId="125">
+      <IdentCon UId="49" />
+      <NameCon UId="75" Name="sensor-box" />
+    </Wire>
+    <Wire UId="126">
+      <IdentCon UId="50" />
+      <NameCon UId="75" Name="sensor-conveyor" />
+    </Wire>
+    <Wire UId="127">
+      <NameCon UId="75" Name="conveyor" />
+      <IdentCon UId="51" />
+    </Wire>
+    <Wire UId="128">
+      <NameCon UId="75" Name="yellow" />
+      <IdentCon UId="52" />
+    </Wire>
+    <Wire UId="129">
+      <NameCon UId="75" Name="red" />
+      <IdentCon UId="53" />
+    </Wire>
+    <Wire UId="130">
+      <NameCon UId="75" Name="green" />
+      <IdentCon UId="54" />
+    </Wire>
+    <Wire UId="131">
+      <IdentCon UId="55" />
+      <NameCon UId="77" Name="floor" />
+    </Wire>
+    <Wire UId="132">
+      <IdentCon UId="56" />
+      <NameCon UId="77" Name="sensor-box" />
+    </Wire>
+    <Wire UId="133">
+      <IdentCon UId="57" />
+      <NameCon UId="77" Name="sensor-conveyor" />
+    </Wire>
+    <Wire UId="134">
+      <NameCon UId="77" Name="conveyor" />
+      <IdentCon UId="58" />
+    </Wire>
+    <Wire UId="135">
+      <NameCon UId="77" Name="yellow" />
+      <IdentCon UId="59" />
+    </Wire>
+    <Wire UId="136">
+      <NameCon UId="77" Name="red" />
+      <IdentCon UId="60" />
+    </Wire>
+    <Wire UId="137">
+      <NameCon UId="77" Name="green" />
+      <IdentCon UId="61" />
+    </Wire>
+    <Wire UId="138">
+      <IdentCon UId="62" />
+      <NameCon UId="79" Name="floor" />
+    </Wire>
+    <Wire UId="139">
+      <IdentCon UId="63" />
+      <NameCon UId="79" Name="sensor-box" />
+    </Wire>
+    <Wire UId="140">
+      <IdentCon UId="64" />
+      <NameCon UId="79" Name="sensor-conveyor" />
+    </Wire>
+    <Wire UId="141">
+      <NameCon UId="79" Name="conveyor" />
+      <IdentCon UId="65" />
+    </Wire>
+    <Wire UId="142">
+      <NameCon UId="79" Name="yellow" />
+      <IdentCon UId="66" />
+    </Wire>
+    <Wire UId="143">
+      <NameCon UId="79" Name="red" />
+      <IdentCon UId="67" />
+    </Wire>
+    <Wire UId="144">
+      <NameCon UId="79" Name="green" />
+      <IdentCon UId="68" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
           <ProgrammingLanguage>LAD</ProgrammingLanguage>
         </AttributeList>
         <ObjectList>
@@ -66,9 +641,100 @@
           </MultilingualText>
         </ObjectList>
       </SW.Blocks.CompileUnit>
-      <MultilingualText ID="8" CompositionName="Title">
+      <SW.Blocks.CompileUnit ID="8" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><FlgNet xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/FlgNet/v5">
+  <Parts>
+    <Access Scope="GlobalVariable" UId="21">
+      <Symbol>
+        <Component Name="Emergency stop" />
+      </Symbol>
+    </Access>
+    <Access Scope="GlobalVariable" UId="22">
+      <Symbol>
+        <Component Name="memory-eme" />
+      </Symbol>
+    </Access>
+    <Part Name="Contact" UId="23">
+      <Negated Name="operand" />
+    </Part>
+    <Part Name="SCoil" UId="24" />
+  </Parts>
+  <Wires>
+    <Wire UId="25">
+      <Powerrail />
+      <NameCon UId="23" Name="in" />
+    </Wire>
+    <Wire UId="26">
+      <IdentCon UId="21" />
+      <NameCon UId="23" Name="operand" />
+    </Wire>
+    <Wire UId="27">
+      <NameCon UId="23" Name="out" />
+      <NameCon UId="24" Name="in" />
+    </Wire>
+    <Wire UId="28">
+      <IdentCon UId="22" />
+      <NameCon UId="24" Name="operand" />
+    </Wire>
+  </Wires>
+</FlgNet></NetworkSource>
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
         <ObjectList>
-          <MultilingualTextItem ID="9" CompositionName="Items">
+          <MultilingualText ID="9" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="A" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="B" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="C" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <SW.Blocks.CompileUnit ID="D" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource />
+          <ProgrammingLanguage>LAD</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="E" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="F" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="10" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="11" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="12" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="13" CompositionName="Items">
             <AttributeList>
               <Culture>en-US</Culture>
               <Text>"Main Program Sweep (Cycle)"</Text>
